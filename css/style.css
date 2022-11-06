@@ -79,9 +79,10 @@ a{
 
 @media screen and (max-width: 600px){
     #eyes-img{
-        width: 500px;
+        width: 400px;
         position: absolute;
-        left: 0;
+        top: 0;
+        left: 10;
         opacity: 40%;
     }
     #explore-blog {
