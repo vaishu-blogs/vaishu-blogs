@@ -28,6 +28,10 @@ a{
     font-size: 20px;
 }
 
+.main-nav{
+    justify-content: flex-end;
+}
+
 #quote-para{
     text-align: center;
 }
