@@ -77,7 +77,7 @@ a{
     margin-right: 5%;
   }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     #eyes-img{
         width: 400px;
         position: absolute;
