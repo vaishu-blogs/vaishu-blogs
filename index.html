@@ -1,54 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Vaishu Blogs</title>
-</head>
-<body>
-    <nav>
-        <div class="brand">
-            Vaishu Blogs
-        </div>
-        <ul class="nav-items">
-            <li class="nav-item"><a href="" class="nav-links">Home</a></li>
-            <li class="nav-item"><a href="" class="nav-links">Blogs</a></li>
-            <li class="nav-item"><a href="" class="nav-links">About Me</a></li>
-            <li class="nav-item"><a href="" class="nav-links">Contact Me</a></li>
-        </ul>
-        <div class="nav-menu-icon">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </div>
-    </nav>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <main class="container">
-        <div class="col col-1">
-            <p id="quote-para">
-                Things will happen but just go and go,<br>
-                hit the hitch just go and go<br>
-                pass the pass you will get just go and go<br>
-                don’t aloow to snivel just go and go<br>
-                chase your delusion just go and go<br>
-                <br>
-                fix your figment miles away<br>
-                trek to your conceil<br>
-                believe fame than blames<br>
-                lol is for you and you only<br>
-                tag it and go and go.<br>
-                <br>
-                <p id="author">
-                    Vaishnavi
-                </p>
-            </p>
-        </div>
-        <div class="col col-2">
-            <img id="eyes-img" src="./assests/home/eyes.png" alt="">
-        </div>
-    </main>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Vaishu Blogs</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <span class="navbar-brand mb=0 ml-1 h1">Vaishu-Blogs</span>
+            <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navContent" 
+                aria-controls="navContent" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Blogs</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+                </ul>
     
-    
-</body>
+            </div>
+        </nav>
+        <div class="row main">
+            <div class="col-lg-6 col-sm-12" id="right-col">
+                <img id="eyes-img" src="./assests/home/eyes.png" alt="">
+            </div>
+            <div class="col-lg-6" id="left-col">
+                <div class="row quote-container">
+                    <p id="quote-para">
+                        Things will happen but just go and go,<br>
+                        hit the hitch just go and go<br>
+                        pass the pass you will get just go and go<br>
+                        don’t aloow to snivel just go and go<br>
+                        chase your delusion just go and go<br>
+                        <br>
+                        fix your figment miles away<br>
+                        trek to your conceil<br>
+                        believe fame than blames<br>
+                        lol is for you and you only<br>
+                        tag it and go and go.<br>
+                        <br>
+                        <p id="author">
+                            Vaishnavi
+                        </p>
+                        
+                    </p>
+                </div>
+                <div class="row">
+                    <button id="explore-blog" type="button"><a href="#">Explore blogs</a></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
 </html>
