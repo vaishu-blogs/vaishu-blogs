@@ -51,7 +51,3 @@ nav .nav-items{
     flex: 0.5;
     min-height: 100;
 }
-
-.col-2{
-    overflow: hidden;
-}
