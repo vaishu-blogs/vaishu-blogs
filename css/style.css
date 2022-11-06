@@ -56,7 +56,6 @@ a{
 
 #eyes-img{
     width: 600px;
-    float: left;
 }
 
 #explore-blog {
@@ -70,3 +69,11 @@ a{
     font-size: 25px;
     font-weight: bold;
   }
+
+@media screen and (max-width: 600px){
+    #eyes-img{
+        width: 300px;
+        justify-content: center;
+    }
+    
+}
