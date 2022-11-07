@@ -1,16 +1,24 @@
 
 
+body{
+    padding: 0;
+    margin: 0;
+}
+
 header{
     height: 15vh;
+    width: 100vw;
     background-color: blueviolet;
 }
 
 main{
     height: 80vh;
+    width: 100vw;
     background-color: yellow;
 }
 
 footer{
     height: 5vh;
+    width: 100vw;
     background-color: green;
 }
