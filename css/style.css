@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 
 :root{
     --body-font-lg: 21px;
     --body-ff: 'Poppins';
 
-    --brand-ff: 'Pacific'
+    --brand-ff: 'Cookie';
+
+    --quote--ff: 'Architects Daughter';
 
     --header-font-lg: 36px;
 
@@ -75,11 +78,13 @@ main{
 .quote-text{
     font-size: var(--body-font-lg);
     text-align: center;
+    font-family: var(--quote--ff);
 }
 
 .quote-author{
     text-align: center;
     font-size: var(--header-font-lg);
+    font-family: var(--brand-ff);
     font-weight: bolder;
 }
 
@@ -116,7 +121,7 @@ footer{
         --body-font-lg: 14px;
         --body-ff: 'Poppins';
     
-        --header-font-lg: 24px;
+        --header-font-lg: 30px;
     }
     .container{
         display: flex;
