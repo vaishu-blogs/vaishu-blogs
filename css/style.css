@@ -38,3 +38,23 @@ footer{
     width: 100vw;
     background-color: green;
 }
+
+
+@media screen and (max-width: 800px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-1{
+        background-color: brown;
+        display: flex;
+        flex: 100vw;
+    }
+    
+    .col-2{
+        background-color: antiquewhite;
+        display: flex;
+        flex:100vw;
+    }
+    
+}
