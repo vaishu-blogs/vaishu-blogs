@@ -49,6 +49,7 @@ footer{
         background-color: brown;
         display: flex;
         flex: 100vw;
+        order: 1;
     }
     
     .col-2{
