@@ -48,6 +48,9 @@ ul{
     justify-content: flex-end;
     padding: 1em;
 }
+.nav-button{
+    display: none;
+}
 
 .brand-name{
     font-size: var(--header-font-lg);
@@ -136,6 +139,16 @@ footer{
     }
     .nav-items{
         display: none;
+    }
+    .nav-button{
+        display: inline;
+        margin-left: 1rem;
+        font-size: 30px;
+    }
+    .nav-button:focus + .nav-items { 
+        display: flex; 
+        flex-direction: column;
+        text-align: center;
     }
     .brand-name{
         text-align: center;
