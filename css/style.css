@@ -11,7 +11,9 @@
 
     --quote--ff: 'Architects Daughter';
 
-    --header-font-lg: 36px;
+    --author-font-lg: 36px;
+    --header-font-lg: 72px;
+
 
     --white: #F5F5F5;
     --green: #7FD1AE; 
@@ -22,7 +24,6 @@ body{
     margin: 0;
     font-family: var(--body-ff);
     background-color: var(--white);
-    height: 100vh;
 }
 
 a{
@@ -83,9 +84,9 @@ main{
 
 .quote-author{
     text-align: center;
-    font-size: var(--header-font-lg);
+    font-size: var(--author-font-lg);
     font-family: var(--brand-ff);
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 .blog-button{
@@ -121,7 +122,8 @@ footer{
         --body-font-lg: 14px;
         --body-ff: 'Poppins';
     
-        --header-font-lg: 30px;
+        --header-font-lg: 45px;
+        --author-font-lg: 24px;
     }
     .container{
         display: flex;
@@ -136,10 +138,6 @@ footer{
         display: none;
     }
     .brand-name{
-        font-size: var(--header-font-lg);
-        font-weight: bold;
-        margin-left: 1em;
-        margin-top: 1em;
         text-align: center;
     }
     .col-2{
