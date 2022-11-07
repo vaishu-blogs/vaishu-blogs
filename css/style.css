@@ -2,7 +2,7 @@
 
 
 :root{
-    --body-font-lg: 25px;
+    --body-font-lg: 21px;
     --body-ff: 'Poppins';
 
     --header-font-lg: 30px;
@@ -21,11 +21,31 @@ body{
 a{
     text-decoration: none;
     color: black;
+    margin: 2em;
+    font-weight: 400;
 }
 
 header{
     width: 100vw;
-    background-color: blueviolet;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+.brand-name{
+    font-size: var(--header-font-lg);
+    font-weight: bold;
+    margin-left: 1em;
+    margin-top: 1em;
 }
 
 main{
@@ -39,6 +59,11 @@ main{
 .col-1{
     display: flex;
     flex-direction: column;
+    flex: 50vw;
+}
+
+.col-2{
+    display: flex;
     flex: 50vw;
 }
 
@@ -68,13 +93,12 @@ main{
 
 .col-2{
     display: flex;
-    flex:50vw;
+    flex:40vw;
 }
 #eyes-img{
-    justify-items: center;
-    align-items: center;
-    width: 100%;
+    width: 80%;
     object-fit: contain;
+    opacity: 60%;
 }
 
 footer{
@@ -84,7 +108,7 @@ footer{
 
 @media screen and (max-width: 800px) {
     :root{
-        --body-font-lg: 16px;
+        --body-font-lg: 14px;
         --body-ff: 'Poppins';
     
         --header-font-lg: 24px;
@@ -96,21 +120,29 @@ footer{
     .col-1{
         display: flex;
         order: 1;
-        flex: 100vw;
+        flex: 80vh;
     }
-    
+    .nav-items{
+        display: none;
+    }
+    .brand-name{
+        font-size: var(--header-font-lg);
+        font-weight: bold;
+        margin-left: 1em;
+        margin-top: 1em;
+        text-align: center;
+    }
     .col-2{
         display: flex;
-        flex:100vw;
+        flex:10vh;
     }
 
     #eyes-img{
-        justify-items: center;
-        align-items: center;
-        margin: auto;
-        height: 70%;
-        width: 100%;
-        object-fit: contain;     
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        object-fit: contain; 
+        opacity: 60%;    
     }
     
     
