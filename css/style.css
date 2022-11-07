@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 
 :root{
     --body-font-lg: 25px;
     --body-ff: 'Poppins';
 
-    --header-font-lg: 36px;
+    --header-font-lg: 30px;
 
     --white: #F5F5F5;
     --green: #7FD1AE; 
@@ -13,6 +14,8 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: var(--body-ff);
+    background-color: var(--white);
 }
 
 a{
@@ -21,15 +24,12 @@ a{
 }
 
 header{
-    height: 15vh;
     width: 100vw;
     background-color: blueviolet;
 }
 
 main{
-    height: 80vh;
     width: 100vw;
-    background-color: yellow;
 }
 
 .container{
@@ -37,14 +37,12 @@ main{
     flex-direction: row;
 }
 .col-1{
-    background-color: brown;
     display: flex;
     flex-direction: column;
     flex: 50vw;
 }
 
 .quote-text{
-    margin: auto;
     font-size: var(--body-font-lg);
     text-align: center;
 }
@@ -52,22 +50,23 @@ main{
 .quote-author{
     text-align: center;
     font-size: var(--header-font-lg);
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .blog-button{
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
     font-size: var(--body-font-lg);
+    font-weight: bold;
     background-color: var(--green);
     border: none;
     border-radius: 5px;
     width: 60%;
-    padding-top: 15;
-    padding-bottom: 15;
+    height: 8vh;
 }
 
 .col-2{
-    background-color: antiquewhite;
     display: flex;
     flex:50vw;
 }
@@ -79,9 +78,7 @@ main{
 }
 
 footer{
-    height: 5vh;
     width: 100vw;
-    background-color: green;
 }
 
 
@@ -97,14 +94,12 @@ footer{
         flex-direction: column;
     }
     .col-1{
-        background-color: brown;
         display: flex;
         order: 1;
         flex: 100vw;
     }
     
     .col-2{
-        background-color: antiquewhite;
         display: flex;
         flex:100vw;
     }
