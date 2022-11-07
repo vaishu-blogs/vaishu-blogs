@@ -52,6 +52,12 @@ ul{
     display: none;
 }
 
+.title{
+    font-size: var(--header-font-lg);
+    font-family: var(--brand-ff);
+    font-weight: bold;
+    align-items: center;
+}
 .brand-name{
     font-size: var(--header-font-lg);
     font-family: var(--brand-ff);
@@ -131,6 +137,7 @@ footer{
     .container{
         display: flex;
         flex-direction: column;
+        padding: 1em;
     }
     .col-1{
         display: flex;
@@ -141,17 +148,20 @@ footer{
         display: none;
     }
     .nav-button{
-        display: inline;
-        margin-left: 1rem;
+        display: block;
+        align-items: center;
         font-size: 30px;
+        margin-left: 1rem;
+        border: none;
+        background-color: var(--white);
     }
-    .nav-button:focus + .nav-items { 
+    .nav-button:focus+.nav-items { 
         display: flex; 
         flex-direction: column;
         text-align: center;
     }
     .brand-name{
-        text-align: center;
+        display: none;
     }
     .col-2{
         display: flex;
