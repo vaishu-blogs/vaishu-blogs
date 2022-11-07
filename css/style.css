@@ -17,6 +17,22 @@ main{
     background-color: yellow;
 }
 
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.col-1{
+    background-color: brown;
+    display: flex;
+    flex: 50vw;
+}
+
+.col-2{
+    background-color: antiquewhite;
+    display: flex;
+    flex:50vw;
+}
+
 footer{
     height: 5vh;
     width: 100vw;
