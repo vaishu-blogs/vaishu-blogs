@@ -55,13 +55,13 @@ ul{
 .title{
     font-size: var(--header-font-lg);
     font-family: var(--brand-ff);
-    font-weight: bold;
+    font-weight: 500;
     align-items: center;
 }
 .brand-name{
     font-size: var(--header-font-lg);
     font-family: var(--brand-ff);
-    font-weight: bold;
+    font-weight: 500;
     margin-left: 1em;
     margin-top: 1em;
 }
